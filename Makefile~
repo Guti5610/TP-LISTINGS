@@ -1,0 +1,6 @@
+nuevo: nuevo.c
+	gcc nuevo.c -o nuevo
+
+clean:
+	rm -f nuevo
+
