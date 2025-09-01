@@ -2,6 +2,7 @@
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h> 
 
 /* Allocate a temporary buffer. */
 void* allocate_buffer(size_t size) {
